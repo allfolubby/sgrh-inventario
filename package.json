@@ -6,6 +6,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
   },
   "dependencies": {
     "@mui/material": "^5.15.0",
